@@ -1,0 +1,82 @@
+body{
+  background-color:bisque;
+}
+
+.main{
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+h1{
+  text-transform: uppercase;
+  letter-spacing:10px;
+  margin-bottom: 30px;
+}
+
+input[type="text"]{
+  width: 15rem;
+  height:1.5rem;
+  margin-left: 12%;
+  border-radius:5px;
+  outline: none;
+  border: 1px solid #EA4C89;
+}
+
+input[type="checkbox"]{
+  width: 1rem;
+  height:1rem;
+  margin-right: 5px;
+ 
+}
+
+.list{
+  display: flex;
+  margin-left: 41%;  /*330px*/
+  font-size: 18px;
+  padding: 5px;
+  font-weight:400;
+}
+
+.left-todos{
+  background-color:#07bad5;
+  color:#eee;
+  padding: 8px;
+  border-radius: 5px;
+  font-size:18px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  
+}
+.btn1{
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin-left: 10px;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .btn1:hover,
+  .btn1:focus {
+    background-color: #F082AC;
+  }
+  
